@@ -12,7 +12,7 @@ StringExample.py
 #index - Always starts at 0
 #length
 
-#Example
+#Example  
 # 0123		012345
 #"Paul"		"Monkey"
 #len("paul") = 4
