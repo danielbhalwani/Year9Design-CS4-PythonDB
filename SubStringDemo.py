@@ -1,4 +1,4 @@
-#Input
+ #Input
 fName = input("what is your first name: ")
 lName = input("what is your last name: ")
 
