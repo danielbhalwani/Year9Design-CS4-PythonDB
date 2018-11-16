@@ -1,14 +1,14 @@
 #Input
-a= input("")
+a = input("")
 a = int(a)
 
-b= input("")
-b= int(b)
+b = input("")
+b = int(b)
 
-c= input("")
-c= imput(c)
+c = input("")
+c = int(c)
 
-d= input(input
+d = int(input(""))
 
 
 
