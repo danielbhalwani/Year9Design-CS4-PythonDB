@@ -12,6 +12,28 @@ diff = 60 * 60 * 24
 yesterday = datetime(*datetime.fromtimestamp(calendar.timegm(datetime.today().utctimetuple()) - diff).utctimetuple()[:3], hour=23, minute=30)
 print (yesterday)
 
+
+
+Label(root, text="red", bg="red", fg="white")
+pack(padx=5, pady=10, side=LEFT)
+Label(root, text="green", bg="green", fg="black")
+Pack(padx=5, pady=20, side=LEFT)
+Label(root, text="blue", bg="blue", fg="white")
+Pack(padx=5, pady=20, side=LEFT)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 labUN.pack()
 entUN = tk.Entry(root)
 entUN.pack(padx = 10)

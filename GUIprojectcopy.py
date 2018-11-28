@@ -12,6 +12,38 @@ diff = 60 * 60 * 24
 yesterday = datetime(*datetime.fromtimestamp(calendar.timegm(datetime.today().utctimetuple()) - diff).utctimetuple()[:3], hour=23, minute=30)
 print (yesterday)
 
+outfitUC = 1
+outfitR = 3
+outfitE	= 4
+outfitL	= 6
+
+pickaxesUC = 3
+pickaxesR = 22
+pickaxesE = 4
+pickaxesL = 2
+
+def clicked1(event):
+	#How do I decided who I have clicked on?
+	print("Outfits")
+	labInput1.config(background = "black", foreground = "white")
+	labInput3.config(background = "grey", foreground = "black")
+	labInput2.config(background = "grey", foreground = "black")
+
+def clicked2(event):
+	#How do I decided who I have clicked on?
+	print("Pickaxes")
+	labInput2.config(background = "black", foreground = "white")
+	labInput1.config(background = "grey", foreground = "black")
+	labInput3.config(background = "grey", foreground = "black")
+	labInput7.config(text = "Rare Skins: "+str(pickaxesR))
+
+def clicked3(event):
+	#How do I decided who I have clicked on?
+	print("Gliders")
+	labInput3.config(background = "black", foreground = "white")
+	labInput2.config(background = "grey", foreground = "black")
+	labInput1.config(background = "grey", foreground = "black")
+
 #Add a section a code that highlights
 #the appropriate section - Outfits, Pickaxes or Gliders
 #************WIDGET 2,3,4 (Labels)**************
@@ -29,6 +61,7 @@ labInput3 = tk.Label(root, text = "Gliders")
 labInput3.config(background = "grey", foreground = "black")
 labInput3.grid(row = 2, column = 0, sticky = "NESW")
 labInput3.bind("<Button-1>",clicked3)
+
 
 
 labInput4 = tk.Label(root, text = "Total = ___", background = "light blue")
