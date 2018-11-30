@@ -11,7 +11,7 @@ outfitE	= 4
 outfitL	= 6
 
 pickaxesUC = 3
-pickaxesR = 2
+pickaxesR = 22
 pickaxesE = 4
 pickaxesL = 2
 

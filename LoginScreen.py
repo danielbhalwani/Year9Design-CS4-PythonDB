@@ -5,8 +5,6 @@ import tkinter as tk
 
 #With the login page all elements are vertically aligned
 # this would be an instance where just using pack would be ifne
-
-
 #Main window
 root = tk.Tk()
 root.title('WorkTimeTracker V1')
